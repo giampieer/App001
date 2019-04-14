@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/viewDocument"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appbar"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/viewSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewDocument"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/viewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewSurname"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/viewBornDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewName"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/viewStudiesYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewBornDate"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/viewSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewStudiesYear"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/viewAverage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewSection"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/viewPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewAverage"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:background="@color/colorPrimary"
+        android:text="Salir"
+        android:layout_below="@id/viewPhoto"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
